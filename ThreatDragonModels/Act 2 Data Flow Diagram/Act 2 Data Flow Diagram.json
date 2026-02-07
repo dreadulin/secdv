@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "be2bf2a8-aab0-4e45-a835-abf2b0bc8199",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Web Application",
@@ -158,6 +158,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -254,8 +255,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 2
+            }
           },
           {
             "position": {
@@ -281,6 +281,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -364,7 +365,6 @@
               ]
             },
             "id": "13d98f71-b6b6-4f2d-9082-4c322544bb26",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "SQL Database",
@@ -402,6 +402,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -485,7 +486,6 @@
               ]
             },
             "id": "7356ddbe-91b9-41b2-af94-5c649ab84640",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Browser",
@@ -863,52 +863,6 @@
             }
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Privilege verification\n",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Privilege verification\n"
-            ],
-            "id": "caf53b6b-a02e-499a-a2e2-dae542083020",
-            "source": {
-              "x": 760,
-              "y": 337
-            },
-            "target": {
-              "x": 860,
-              "y": 437
-            }
-          },
-          {
             "position": {
               "x": 760,
               "y": 450
@@ -932,6 +886,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1015,7 +970,6 @@
               ]
             },
             "id": "11760609-4a5d-4c59-a908-d5184b9543f5",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "LDAP",
