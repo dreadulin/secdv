@@ -557,6 +557,58 @@
                 "y": 560
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User sends user credentials",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "User sends user credentials"
+            ],
+            "id": "9152c695-bd03-4c5f-be0d-cc61a013aa12",
+            "source": {
+              "x": -5,
+              "y": 410
+            },
+            "target": {
+              "cell": "be2bf2a8-aab0-4e45-a835-abf2b0bc8199",
+              "port": "7c88653f-c9e3-4d36-910f-05dba6c4e8f5"
+            },
+            "vertices": [
+              {
+                "x": 160,
+                "y": 410
+              }
+            ]
           }
         ]
       }
