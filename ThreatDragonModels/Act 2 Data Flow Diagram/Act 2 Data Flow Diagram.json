@@ -135,6 +135,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -655,6 +662,114 @@
               "cell": "13d98f71-b6b6-4f2d-9082-4c322544bb26",
               "port": "d3d5063d-59e1-4e99-b1c7-112c1ad74558"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verified\n",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Verified\n"
+            ],
+            "id": "a7b4c9ff-f668-4125-b88a-57e9645adcf7",
+            "source": {
+              "x": 310,
+              "y": 140
+            },
+            "target": {
+              "cell": "be2bf2a8-aab0-4e45-a835-abf2b0bc8199",
+              "port": "7817bf2b-e05a-4b50-9dfb-8a219184bcd7"
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": 230
+              },
+              {
+                "x": 320,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "8ea61c1a-4be6-4777-9bcc-af2f823746cc",
+            "source": {
+              "x": 420,
+              "y": 350
+            },
+            "target": {
+              "x": 510,
+              "y": 350
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 290
+              }
+            ]
           }
         ]
       }
